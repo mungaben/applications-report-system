@@ -8,7 +8,7 @@ import { SignIn } from "@clerk/nextjs";
 const page = () => {
     // after sign in check if user is admin if admin take to admin page else take to user page{"/"}
   return (
-    <div className='flex items-center justify-center '>
+    <div className='flex items-center justify-center w-full '>
             <SignIn  afterSignInUrl={"/"} />
     </div>
   )

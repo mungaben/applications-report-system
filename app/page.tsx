@@ -6,6 +6,7 @@ import { UserButton } from "@clerk/nextjs";
 import { useUser } from "@clerk/nextjs";
 import MainDash from "./DashBoard2/components/MainDash";
 
+
 export default function Home() {
   const { isLoaded, isSignedIn, user } = useUser();
 // if(user){
