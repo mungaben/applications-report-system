@@ -14,9 +14,9 @@ export default function Home() {
 //   console.log( "full name",fullName,"last name",lastName,"email",emailAddresses[0].emailAddress,"id",id,"username",username);
   
 // }
-  if (!isLoaded || !isSignedIn) {
-    return null;
-  }
+  // if (!isLoaded || !isSignedIn) {
+  //   return null;
+  // }
   return (
     <main className="">
      <MainDash/>
