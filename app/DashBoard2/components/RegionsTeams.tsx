@@ -90,7 +90,7 @@ export default function RegionsTeams({ className }: TeamSwitcherProps) {
             aria-label="Select a team"
             className={cn("w-[200px] justify-between", className)}
           >
-            <Avatar className="mr-2 h-5 w-5">
+            <Avatar className="w-5 h-5 mr-2">
               <AvatarImage
                 src={"/avatars/04.png"}
                 alt={selectedTeam}
@@ -98,7 +98,7 @@ export default function RegionsTeams({ className }: TeamSwitcherProps) {
               <AvatarFallback> Teams</AvatarFallback>
             </Avatar>
             {selectedTeam}
-            <CaretSortIcon className="ml-auto h-4 w-4 shrink-0 opacity-50" />
+            <CaretSortIcon className="w-4 h-4 ml-auto opacity-50 shrink-0" />
           </Button>
         </PopoverTrigger>
         <PopoverContent className="w-[200px] p-0">
@@ -118,7 +118,7 @@ export default function RegionsTeams({ className }: TeamSwitcherProps) {
                       }}
                       className="text-sm"
                     >
-                      <Avatar className="mr-2 h-5 w-5">
+                      <Avatar className="w-5 h-5 mr-2">
                         <AvatarImage
                           src={`/avatars/05.png`}
                           alt={team}
@@ -150,8 +150,8 @@ export default function RegionsTeams({ className }: TeamSwitcherProps) {
                       setShowNewTeamDialog(true)
                     }}
                   >
-                    <PlusCircledIcon className="mr-2 h-5 w-5" />
-                    <Link href={"/"}>CreateRegion</Link>
+                    <PlusCircledIcon className="w-5 h-5 mr-2" />
+                    <Link href={"/Admin"}>CreateRegion</Link>
                   </CommandItem>
                 </DialogTrigger>
               </CommandGroup>

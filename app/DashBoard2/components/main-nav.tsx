@@ -20,6 +20,12 @@ export function MainNav({
       >
         Reports
       </Link>
+      <Link
+        href="/Admin"
+        className="text-sm font-medium transition-colors text-muted-foreground hover:text-primary"
+      >
+        Admin
+      </Link>
       {/* <Link
         href="/"
         className="text-sm font-medium transition-colors text-muted-foreground hover:text-primary"
