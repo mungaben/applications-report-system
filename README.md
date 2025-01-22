@@ -109,4 +109,4 @@ This project is licensed under the MIT License.
 
 ---
 
-This README provides a comprehensive guide to setting up and using the Applications Report System. Adjust the content as needed to fit your specific project details.
+This README provides a comprehensive guide to setting up and using the Applications Report System.
